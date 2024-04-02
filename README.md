@@ -1,6 +1,6 @@
 # Hello. im dorker
 im someone on the internet. eh idk lol
-https://guns.lol/dorker
+https://dorkers.great-site.net/?i=1
 
 i also like cats. 😺
 
