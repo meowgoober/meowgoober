@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xdijd</title>
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+  <style>
+    /* iconic windows 98 solid teal background */
+    body {
+      background-color: #008080;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      /* flexible layout to tile your windows side-by-side */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    /* clean retro link styling */
+    a {
+      color: #000080;
+    }
+    a:visited {
+      color: #000080;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="window" style="width: 450px;">
+    <div class="title-bar">
+      <div class="title-bar-text">about me</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body" style="display: flex; gap: 16px; align-items: flex-start;">
+      <img src="https://avatars.githubusercontent.com/u/142069939?v=4" 
+           alt="xdijd" 
+           style="width: 80px; height: 80px; border: 2px solid #fff; box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, 1px 1px #0a0a0a; background: #c0c0c0;" />
+      
+      <div style="flex: 1;">
+        <p style="margin-top: 0;">i'm xdijd. i'm from iraq.</p>
+        <p>i like to make stuff and write software, usually sticking to python or .net, but i'll mess around with other languages too if i need to. when i'm not breaking code, i'm usually playing minecraft on abmc.</p>
+        <p>music is a big part of what i do. i play guitar, consider myself a bit of an audiophile, and listen to a lot of daft punk and weezer. i also self-host my own media using a tailscale and jellyfin setup.</p>
+        <p style="margin-bottom: 0;">i have two cats named leo and bubshooka.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="window" style="width: 450px;">
+    <div class="title-bar">
+      <div class="title-bar-text">main projects</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <div class="sunken-panel" style="padding: 10px; margin-bottom: 12px; background: #fff;">
+        <p style="margin: 0;">
+          <strong><a href="https://github.com/meowgoober/Bilibili-EnToCn" target="_blank">bilibili-entocn</a></strong>
+        </p>
+        <p style="margin: 6px 0; font-size: 12px;">lets you translate your english words into chinese words on textfields (comments, searches) on bilibili.</p>
+        <span style="font-size: 11px; color: #555;">🟡 javascript</span>
+      </div>
+
+      <div class="sunken-panel" style="padding: 10px; margin-bottom: 12px; background: #fff;">
+        <p style="margin: 0;">
+          <strong><a href="https://github.com/meowgoober/crosstalkpatcher" target="_blank">crosstalkpatcher</a></strong>
+        </p>
+        <p style="margin: 6px 0; font-size: 12px;">patches crosstalk</p>
+        <span style="font-size: 11px; color: #555;">🟢 c#</span>
+      </div>
+
+      <div class="sunken-panel" style="padding: 10px; background: #fff;">
+        <p style="margin: 0;">
+          <strong><a href="https://github.com/meowgoober/PawsRise" target="_blank">pawsrise</a></strong>
+        </p>
+        <p style="margin: 6px 0; font-size: 12px;">a simple python script to connect to riseup vpn services</p>
+        <span style="font-size: 11px; color: #555;">🔵 python</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="window" style="width: 420px;">
+    <div class="title-bar">
+      <div class="title-bar-text">pc setup</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <p style="margin-top: 0;"><strong>hardware specifications:</strong></p>
+      
+      <div class="sunken-panel" style="background: #fff; padding: 10px; font-family: monospace; font-size: 12px; line-height: 1.5;">
+        <div style="margin-bottom: 4px; font-weight: bold; color: #000080;">[processor & graphics]</div>
+        • cpu: amd ryzen 5 2600x six-core processor<br>
+        • gpu: radeon rx 570 series
+        
+        <div style="margin-top: 12px; margin-bottom: 4px; font-weight: bold; color: #000080;">[memory & networking]</div>
+        • ram: 16.0 gb ddr4<br>
+        • net: realtek gaming gbe family controller
+        
+        <div style="margin-top: 12px; margin-bottom: 4px; font-weight: bold; color: #000080;">[storage array]</div>
+        • ssd 1: maxtor z1 ssd 480gb<br>
+        • ssd 2: wd blue sn570 500gb<br>
+        • hdd: hitachi hts725025a9a364
+      </div>
+    </div>
+  </div>
+
+  <div class="window" style="width: 400px;">
+    <div class="title-bar">
+      <div class="title-bar-text">contacts</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <p style="margin-top: 0;">places you can find me:</p>
+      
+      <div class="field-row" style="margin-bottom: 6px;">
+        <span style="width: 120px; font-weight: bold;">discord:</span>
+        <span>xdijd</span>
+      </div>
+      
+      <div class="field-row" style="margin-bottom: 6px;">
+        <span style="width: 120px; font-weight: bold;">crosstalk:</span>
+        <a href="https://crosstalk.im/profile/+a" target="_blank">crosstalk.im/profile/+a</a>
+      </div>
+      
+      <div class="field-row" style="margin-bottom: 6px;">
+        <span style="width: 120px; font-weight: bold;">microsoft teams:</span>
+        <span style="color: #555;">dm me on discord for it.</span>
+      </div>
+      
+      <div class="field-row" style="margin-bottom: 6px;">
+        <span style="width: 120px; font-weight: bold;">osu!:</span>
+        <a href="https://osu.ppy.sh/users/35360192" target="_blank">osu.ppy.sh/users/35360192</a>
+      </div>
+      
+      <div class="field-row" style="margin-bottom: 6px;">
+        <span style="width: 120px; font-weight: bold;">geometry dash:</span>
+        <a href="https://gdbrowser.com/u/corncatreal" target="_blank">gdbrowser.com/u/corncatreal</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
