@@ -1,2 +1,2 @@
 hello. im xdijd
-https://meowgoober.github.io/meowgoober/
+https://www.xdijd.fyi/
